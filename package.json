@@ -1,0 +1,37 @@
+{
+  "dependencies": {
+    "@types/jest": "^27.4.1",
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.3",
+    "jest": "^27.5.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.0"
+  },
+  "name": "09sistemadecompartilhamento",
+  "version": "1.0.0",
+  "description": "Sistema de compartilhamento de imgs com MongoDB e TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --detectOpenHandles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erica7dev/08SistemaDeCompartDeImagens.git"
+  },
+  "keywords": [
+    "mongodb",
+    "jwt",
+    "express",
+    "tdd",
+    "jest"
+  ],
+  "author": "Erica Monteiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erica7dev/08SistemaDeCompartDeImagens/issues"
+  },
+  "homepage": "https://github.com/erica7dev/08SistemaDeCompartDeImagens#readme",
+  "devDependencies": {
+    "supertest": "^6.2.2"
+  }
+}
